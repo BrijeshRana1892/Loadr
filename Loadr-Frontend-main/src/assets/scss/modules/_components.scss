@@ -1,0 +1,50 @@
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  color: $color-bg;
+  font-weight: $font-bold;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 3px solid;
+  transition: all 0.3s ease-in;
+  display: inline-flex;
+  align-items: bottom;
+
+  &:hover {
+    opacity: 0.95;
+  }
+
+  &--main {
+    background: $color-main;
+    border-color: $color-text;
+  }
+
+  &--sub {
+    background: $color-bg;
+    color: $color-main;
+    border-color: $color-main;
+
+    &:hover {
+      background: $color-main;
+      color: $color-white;
+    }
+  }
+
+  &--outline {
+    background: $color-white;
+    color: $color-text;
+    border-color: $color-text;
+
+    &:hover {
+      background: $color-text;
+      color: $color-white;
+    }
+  }
+
+  & > svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+  }
+}

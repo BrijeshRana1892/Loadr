@@ -1,0 +1,25 @@
+body {
+  position: relative;
+}
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.3rem;
+  line-height: 1.5;
+
+  @include media-queries(atMediumLarge) {
+    position: fixed;
+    text-align: right;
+    right: 3rem;
+    bottom: 3rem;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: $color-main;
+  }
+}

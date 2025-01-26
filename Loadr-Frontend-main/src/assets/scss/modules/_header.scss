@@ -1,0 +1,24 @@
+.header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    a {
+      display: flex;
+      text-decoration: none;
+    }
+    img {
+      margin-right: 1rem;
+      width: 2.6rem;
+    }
+
+    & a > h1 {
+      font-size: 2.3rem;
+      color: $color-text;
+      font-weight: $font-black;
+      letter-spacing: 0.5px;
+    }
+  }
+}
