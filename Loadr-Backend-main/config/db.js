@@ -2,7 +2,6 @@ const debug = require('debug')('index:db');
 const mongoose = require('mongoose');
 
 const connectDatabase = () => {
-  console.log("Hello>>>>>>>",process.env.MONGODB_URI);
   mongoose.connect(process.env.MONGODB_URI);
 
   const db = mongoose.connection;
