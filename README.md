@@ -7,8 +7,7 @@
 ---
 
 ## 🌐 Live Demo  
-🔗 **[Loadr - Live Project](https://loadr-six.vercel.app)**  
-🔗 **[GitHub Repository](https://github.com/BrijeshRana1892/Loadr)**  
+🔗 **[Loadr - Live Project](https://loadr-six.vercel.app)** 
 
 ---
 
@@ -47,9 +46,3 @@
 
 ---
 
-## 🚀 Installation & Setup  
-
-1️⃣ **Clone the Repository**  
-```bash
-git clone https://github.com/BrijeshRana1892/Loadr
-cd Loadr
